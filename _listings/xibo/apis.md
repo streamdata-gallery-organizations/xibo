@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Xibo
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-31"
+modified: "2018-08-31"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
 apis:
@@ -206,6 +206,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/datasetimportdatasetid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/datasetimportdatasetid-post-openapi.md
+- name: Xibo API - Import JSON
+  x-api-slug: datasetimportjsondatasetid-post
+  description: Import JSON into a DataSet
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/datasetimportjsondatasetid-post-openapi.md
 - name: Xibo API - Search Columns
   x-api-slug: datasetdatasetidcolumn-get
   description: Search Columns for DataSet
@@ -302,6 +312,46 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/datasetdatadatasetidrowid-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/datasetdatadatasetidrowid-delete-openapi.md
+- name: Xibo API - Daypart Search
+  x-api-slug: daypart-get
+  description: Search dayparts
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/daypart-get-openapi.md
+- name: Xibo API - Daypart Add
+  x-api-slug: daypart-post
+  description: Add a Daypart
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/daypart-post-openapi.md
+- name: Xibo API - Daypart Add
+  x-api-slug: daypartdaypartid-put
+  description: Add a Daypart
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/daypartdaypartid-put-openapi.md
+- name: Xibo API - Delete DayPart
+  x-api-slug: daypartdaypartid-delete
+  description: Delete the provided dayPart
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/daypartdaypartid-delete-openapi.md
 - name: Xibo API - Display Search
   x-api-slug: display-get
   description: Search Displays for this User
@@ -350,6 +400,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/displayrequestscreenshotdisplayid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/displayrequestscreenshotdisplayid-put-openapi.md
+- name: Xibo API - Issue WOL
+  x-api-slug: displaywoldisplayid-post
+  description: Send a Wake On LAN packet to this Display
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/displaywoldisplayid-post-openapi.md
 - name: Xibo API - Toggle authorised
   x-api-slug: displayauthorisedisplayid-post
   description: Toggle authorised for the Display.
@@ -759,6 +819,86 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/layoutstatuslayoutid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/layoutstatuslayoutid-get-openapi.md
+- name: Xibo API - Library Search
+  x-api-slug: library-get
+  description: Search the Library for this user
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/library-get-openapi.md
+- name: Xibo API - Add Media
+  x-api-slug: library-post
+  description: Add Media to the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/library-post-openapi.md
+- name: Xibo API - Edit Media
+  x-api-slug: librarymediaid-put
+  description: Edit a Media Item in the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/librarymediaid-put-openapi.md
+- name: Xibo API - Delete Media
+  x-api-slug: librarymediaid-delete
+  description: Delete Media from the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/librarymediaid-delete-openapi.md
+- name: Xibo API - Tidy Library
+  x-api-slug: librarytidy-delete
+  description: Routine tidy of the library, removing unused files.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/librarytidy-delete-openapi.md
+- name: Xibo API - Download Media
+  x-api-slug: librarydownloadmediaidtype-get
+  description: Download a Media file from the Library
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/librarydownloadmediaidtype-get-openapi.md
+- name: Xibo API - Tag Media
+  x-api-slug: librarymediaidtag-post
+  description: Tag a Media with one or more tags
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/librarymediaidtag-post-openapi.md
+- name: Xibo API - Untag Media
+  x-api-slug: librarymediaiduntag-post
+  description: Untag a Media with one or more tags
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/librarymediaiduntag-post-openapi.md
 - name: Xibo API - Get Library Item Usage Report
   x-api-slug: libraryusagemediaid-get
   description: Get the records for the library item usage report
@@ -856,6 +996,46 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/playlistwidgetwidgetidaudio-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/playlistwidgetwidgetidaudio-delete-openapi.md
+- name: Xibo API - Notification Search
+  x-api-slug: notification-get
+  description: Search this users Notifications
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/notification-get-openapi.md
+- name: Xibo API - Notification Add
+  x-api-slug: notification-post
+  description: Add a Notification
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/notification-post-openapi.md
+- name: Xibo API - Notification Edit
+  x-api-slug: notificationnotificationid-put
+  description: Edit a Notification
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/notificationnotificationid-put-openapi.md
+- name: Xibo API - Delete Notification
+  x-api-slug: notificationnotificationid-delete
+  description: Delete the provided notification
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/notificationnotificationid-delete-openapi.md
 - name: Xibo API - Playlist Widget Search
   x-api-slug: playlistwidget-get
   description: Search widgets on a Playlist
@@ -892,6 +1072,86 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/playlistorderplaylistid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/playlistorderplaylistid-post-openapi.md
+- name: Xibo API - Edit Region
+  x-api-slug: regionid-put
+  description: Edit Region
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/regionid-put-openapi.md
+- name: Xibo API - Add Region
+  x-api-slug: regionid-post
+  description: Add a Region to a Layout
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/regionid-post-openapi.md
+- name: Xibo API - Region Delete
+  x-api-slug: regionregionid-delete
+  description: Delete an existing region
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/regionregionid-delete-openapi.md
+- name: Xibo API - Position Regions
+  x-api-slug: regionpositionalllayoutid-put
+  description: Position all regions for a Layout
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/regionpositionalllayoutid-put-openapi.md
+- name: Xibo API - Resolution Search
+  x-api-slug: resolution-get
+  description: Search Resolutions this user has access to
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/resolution-get-openapi.md
+- name: Xibo API - Add Resolution
+  x-api-slug: resolution-post
+  description: Add new Resolution
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/resolution-post-openapi.md
+- name: Xibo API - Edit Resolution
+  x-api-slug: resolutionresolutionid-put
+  description: Edit new Resolution
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/resolutionresolutionid-put-openapi.md
+- name: Xibo API - Delete Resolution
+  x-api-slug: resolutionresolutionid-delete
+  description: Delete Resolution
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/resolutionresolutionid-delete-openapi.md
 - name: Xibo API - Generates the calendar that we draw events on
   x-api-slug: scheduledataevents-get
   description: ""
@@ -904,6 +1164,68 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/scheduledataevents-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/scheduledataevents-get-openapi.md
+- name: Xibo API - Event List
+  x-api-slug: scheduledisplaygroupidevents-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/scheduledisplaygroupidevents-get-openapi.md
+- name: Xibo API - Add Schedule Event
+  x-api-slug: schedule-post
+  description: Add a new scheduled event for a Campaign/Layout to be shown on a Display
+    Group/Display.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/schedule-post-openapi.md
+- name: Xibo API - Edit Schedule Event
+  x-api-slug: scheduleeventid-put
+  description: Edit a scheduled event for a Campaign/Layout to be shown on a Display
+    Group/Display.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/scheduleeventid-put-openapi.md
+- name: Xibo API - Delete Event
+  x-api-slug: scheduleeventid-delete
+  description: Delete a Scheduled Event
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/scheduleeventid-delete-openapi.md
+- name: 'Xibo API - '
+  x-api-slug: stats-get
+  description: ""
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/stats-get-openapi.md
+- name: Xibo API - Template Search
+  x-api-slug: template-get
+  description: Search templates this user has access to
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/template-get-openapi.md
 - name: Xibo API - Add a template from a Layout
   x-api-slug: templatelayoutid-post
   description: Use the provided layout as a base for a new template
@@ -916,6 +1238,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/templatelayoutid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/templatelayoutid-post-openapi.md
+- name: Xibo API - Get Me
+  x-api-slug: userme-get
+  description: Get my details
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/userme-get-openapi.md
+- name: Xibo API - User Search
+  x-api-slug: user-get
+  description: Search users
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/user-get-openapi.md
+- name: Xibo API - Add User
+  x-api-slug: user-post
+  description: Add a new User
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/user-post-openapi.md
 - name: Xibo API - Permission Data
   x-api-slug: userpermissionsentityobjectid-get
   description: Permission data for the Entity and Object Provided.
@@ -928,6 +1280,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/userpermissionsentityobjectid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/userpermissionsentityobjectid-get-openapi.md
+- name: Xibo API - Permission Set
+  x-api-slug: userpermissionsentityobjectid-post
+  description: Set Permissions to users/groups for the provided entity.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/userpermissionsentityobjectid-post-openapi.md
 - name: Xibo API - Retrieve User Preferences
   x-api-slug: userpref-get
   description: User preferences for non-state information, such as Layout designer
@@ -941,6 +1303,27 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/userpref-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/userpref-get-openapi.md
+- name: Xibo API - Save User Preferences
+  x-api-slug: userpref-post
+  description: Save User preferences for non-state information, such as Layout designer
+    zoom levels
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/userpref-post-openapi.md
+- name: Xibo API - UserGroup Search
+  x-api-slug: usergroup-get
+  description: Search User Groups
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/xibo/master/_listings/xibo/usergroup-get-openapi.md
 - name: Xibo API - Copy User Group
   x-api-slug: groupusergroupidcopy-post
   description: Copy an user group, optionally copying the group members
